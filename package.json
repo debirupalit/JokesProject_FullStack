@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node jokes-project-server/server.js",
+    "dev": "nodemon jokes-project-server/server.js",
     "build": "cd jokes-project-client && bun install && bun run build",
-    "start": "node jokes-project-server/server.js"
+    "start": "nodemon jokes-project-server/server.js"
   },
   "keywords": [],
   "author": "",
