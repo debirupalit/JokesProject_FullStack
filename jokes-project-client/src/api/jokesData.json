@@ -1,0 +1,74 @@
+[
+  {
+    "type": "general",
+    "setup": "Why don’t skeletons fight each other?",
+    "punchline": "They don’t have the guts.",
+    "id": 101
+  },
+  {
+    "type": "pun",
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it was two-tired!",
+    "id": 102
+  },
+  {
+    "type": "food",
+    "setup": "What did one plate say to the other plate?",
+    "punchline": "Lunch is on me!",
+    "id": 103
+  },
+  {
+    "type": "sports",
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "In case he got a hole in one!",
+    "id": 104
+  },
+  {
+    "type": "wordplay",
+    "setup": "Why don’t eggs tell jokes?",
+    "punchline": "Because they might crack up.",
+    "id": 105
+  },
+  {
+    "type": "math",
+    "setup": "What did the zero say to the eight?",
+    "punchline": "Nice belt!",
+    "id": 106
+  },
+  {
+    "type": "space",
+    "setup": "How do you organize a space party?",
+    "punchline": "You planet!",
+    "id": 107
+  },
+  {
+    "type": "math",
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it had too many problems.",
+    "id": 108
+  },
+  {
+    "type": "food",
+    "setup": "What do you call a fake noodle?",
+    "punchline": "An impasta!",
+    "id": 109
+  },
+  {
+    "type": "fashion",
+    "setup": "What kind of shoes do ninjas wear?",
+    "punchline": "Sneakers!",
+    "id": 110
+  },
+  {
+    "type": "animal",
+    "setup": "Why don’t elephants use computers?",
+    "punchline": "Because they’re afraid of the mouse!",
+    "id": 111
+  },
+  {
+    "type": "technology",
+    "setup": "Why was the computer cold?",
+    "punchline": "Because it left its Windows open!",
+    "id": 112
+  }
+]

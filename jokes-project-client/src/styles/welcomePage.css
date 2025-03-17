@@ -1,0 +1,38 @@
+.welcome-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfb;
+}
+
+.welcome-image {
+  width: 28%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin: 7px;
+}
+
+.welcome-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.welcome-button {
+  padding: 10px 20px;
+  background-color: #efa50f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.welcome-button:hover {
+  background-color: #c45200;
+  transform: translateY(-5px);
+}

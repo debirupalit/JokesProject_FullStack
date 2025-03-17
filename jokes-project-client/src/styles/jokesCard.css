@@ -1,0 +1,75 @@
+.joke-container {
+  /* max-width: 406px; */
+  perspective: 1000px; /*added for a 3d flip effect*/
+  margin: 20px auto;
+  padding: 6px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 200px;
+  position: relative; /*for flip animation*/
+}
+
+.joke-setup {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center; /* Ensures proper text alignment */
+  padding: 5px; /* Prevents text from touching edges */
+}
+
+.joke-punchline {
+  font-size: 18px;
+  color: #212121;
+  margin-bottom: 15px;
+  text-align: center; /* Ensures proper text alignment */
+  padding: 5px; /* Prevents text from touching edges */
+}
+
+.joke-type {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #007bff;
+  margin-top: 10px; /* Added spacing for better visual balance */
+}
+
+.joke-card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d; /* Ensures 3D flip works */
+  transition: transform 0.6s; /* Smooth flip animation */
+}
+
+.joke-container.flipped .joke-card-inner {
+  transform: rotateY(180deg); /* Rotates the card when flipped */
+}
+
+.joke-card-front,
+.joke-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden; /* Hides the back side when front is visible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Aligns text properly */
+  padding: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.joke-card-front {
+  background: #f8f9fa;
+}
+
+.joke-card-back {
+  background: #fedffb;
+  transform: rotateY(180deg); /* Ensures the back starts flipped */
+}
