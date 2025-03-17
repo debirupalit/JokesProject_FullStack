@@ -1,12 +1,13 @@
+require('dotenv').config({ path: '../.env' });
 // require("dotenv").config();
-const dotenv = require("dotenv");
+// const dotenv = require("../dotenv");
 const express = require("express");
 const { connectDB } = require("./config/db");
 const cors = require("cors");
 const jokeRouter = require("./routers/jokeRouter");
 const path = require("path");
 
-dotenv.config({});
+// dotenv.config({});
 
 /*Initialize Express App*/
 const app = express();
