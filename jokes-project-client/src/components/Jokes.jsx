@@ -11,7 +11,7 @@ const Jokes = () => {
   useEffect(() => {
     const fetchJokes = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/jokes");
+        const response = await fetch("https://jokesproject-dp.onrender.com/api/jokes");
         // const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/jokes`);
         const data = await response.json();
         setJokes(data);
